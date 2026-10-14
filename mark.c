@@ -25,7 +25,7 @@ int main() {
     printf("Percentage: %.2f%%\n", percentage);
 
     // 4. Check pass/fail condition (Passing mark is 40%)
-    if (percentage >= 40.0) {
+    if (percentage >= 35.0) {
         printf("Status: PASSED\n");
     } else {
         printf("Status: FAILED\n");
